@@ -14,7 +14,7 @@ The order in which transactions apply to the consensus [ledger](../../ledgers/in
 A validated ledger can include successful transactions (`tes` result codes) as well as failed transactions (`tec` result codes). No transaction with any other result is included in a ledger.
 
 For any other result code, it can be difficult to determine if the result is final. The following table summarizes when a transaction's outcome is final, based on the result code from submitting the transaction:
-
+Churee38
 | Result Code     | Finality                                                   |
 |:----------------|:-----------------------------------------------------------|
 | `tesSUCCESS`    | Final when included in a validated ledger                  |
